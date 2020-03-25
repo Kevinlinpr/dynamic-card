@@ -1,0 +1,80 @@
+.CardWrapper {
+    height:380px;
+    max-width: 336px;
+    background-color: #f7f9fa;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.CardImgWrapper {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    transform: translate(0,-150px);
+    transition: transform .2s;
+}
+
+.CardContentWrapper {
+    display: flex;
+    width: 100%;
+    height:380px;
+    margin-top: -150px;
+    flex-direction: column;
+}
+.CardContent {
+    width: calc(100%-64px);
+    height: 255px;
+    transform: translate(0,0);
+    transition: transform 0.2s;
+    padding: 32px;
+}
+.CardContentCategory {
+    margin: 0 0 16px;
+    height: 22px;
+    font: 500 16px/24px Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+}
+.CardContentTitle {
+    margin: 0 0 26px;
+    height: 60px;
+    font: 500 22px/30px Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+}
+.CardContentSummary {
+    margin: 16px 0 0;
+    font: 400 16px/24px Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* 可以显示的行数，超出部分用...表示*/
+    -webkit-box-orient: vertical;
+}
+.CardAuthor::after {
+    background: linear-gradient(transparent, #f7f9fa);
+    bottom: 100%;
+    content: "";
+    height: 25px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.CardAuthor {
+    max-width: 336px;
+    height: 104px;
+    position: relative;
+    background-color: #f7f9fa;
+    border-top: 0;
+    padding: 0 32px 32px;
+
+}
+.CardAuthorName {
+    margin: 0;
+    font: 400 16px/24px Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+.CardAuthorDate {
+    margin-top: 8px;
+    font: 400 16px/24px Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
