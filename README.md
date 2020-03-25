@@ -1,6 +1,6 @@
 # Dynamic Card
 
-[![npm](https://img.shields.io/npm/v/dynamic-card?logo=npm&style=for-the-badge)](https://www.npmjs.com/package/dynamic-card)
+[![npm](https://img.shields.io/npm/v/dynamic-card?logo=npm&style=for-the-badge)](https://www.npmjs.com/package/dynamic-card) 
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/Tvierrousjan?style=social)
 
@@ -15,11 +15,7 @@ a light-weight React Dynamic Card Component.
 ## Installation
 
 ```sh
-yarn add dynamic-card --save-dev
-```
-or
-```sh
-npm install dynamic-card --save-dev
+npm i dynamic-card
 ```
 ## Usage
 

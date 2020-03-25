@@ -1,14 +1,18 @@
 {
   "name": "dynamic-card",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "a light-weight React Dynamic Card Component.",
-  "main": "dist/Dynamic.js",
+  "main": "dist/DynamicCard.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
-  "keywords": ["react","component","card"],
+  "keywords": [
+    "react",
+    "component",
+    "card"
+  ],
   "author": "Kevinlinpr <kevinlinpr@gmail.com>",
   "license": "ISC",
   "devDependencies": {
