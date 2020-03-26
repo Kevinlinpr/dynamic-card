@@ -1,6 +1,6 @@
 {
   "name": "dynamic-card",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "a light-weight React Dynamic Card Component.",
   "main": "dist/DynamicCard.js",
   "scripts": {

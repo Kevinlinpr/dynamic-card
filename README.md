@@ -1,6 +1,6 @@
 # Dynamic Card
 
-[![npm](https://img.shields.io/npm/v/dynamic-card?logo=npm&style=for-the-badge)](https://www.npmjs.com/package/dynamic-card) 
+[![npm](https://img.shields.io/npm/v/dynamic-card?logo=npm&style=for-the-badge)](https://www.npmjs.com/package/dynamic-card) [![GitHub stars](https://img.shields.io/github/stars/kevinlinpr/dynamic-card?color=ff4569&logo=github&style=for-the-badge)](https://github.com/Kevinlinpr/dynamic-card)
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/Tvierrousjan?style=social)
 
@@ -8,9 +8,10 @@ a light-weight React Dynamic Card Component.
 
 <div align=center>
 
-![](/doc/effect.gif)
+![](https://github.com/Kevinlinpr/dynamic-card/blob/master/doc/effect.gif?raw=true)
 
 </div>
+
 
 ## Installation
 
