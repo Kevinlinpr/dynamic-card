@@ -37,6 +37,7 @@ const MyCard = () => {
         " a game developer that has built their long term success by taking an unconventional path by game industry standards..."}
         AuthorName={"Apps, Games & Insights"}
         AuthorDate={"March 5, 2020"}
+        onClick={()=>{console.log("Click")}}
     />
 }
 ```
