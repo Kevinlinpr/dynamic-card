@@ -8,6 +8,11 @@ export default function DynamicCard(props){
         <div id="dynamic-card-wrapper" className="CardWrapper"
             onMouseEnter={()=>{setFocus(true)}}
             onMouseLeave={()=>{setFocus(false)}}
+            onClick={
+                ()=>{
+                    if(props.onClick) props.onClick();
+                }
+            }
         >
             <img src={props.Img} id="dynamic-card-img-wrapper" className="CardImgWrapper" style={{transform:focus?'translate(0,0)':'translate(0,-150px)'}}/>
             <div id="dynamic-card-content-wrapper" className="CardContentWrapper">

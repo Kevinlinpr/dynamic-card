@@ -49,3 +49,4 @@ const MyCard = () => {
 | Summary     | summary of the card                            | string   |   true   |
 | AuthorName  | the name of this card's creater                | string   |   true   |
 | AuthorDate  | the date detail of this card                   | string   |   true   |
+| onClick     | onClick Event handler                          | function |   false  |
